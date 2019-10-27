@@ -13,11 +13,11 @@
 
   },
   "require" : {
-    "php": "^7.2",
-    "twbs/bootstrap": "^4"
+    "php": "^7.2"
   },
   "require-dev": {
     "skyline/compiler": "dev-master",
-    "skyline/direct-components": "dev-master"
+    "skyline/direct-components": "dev-master",
+    "twbs/bootstrap": "^4"
   }
 }
