@@ -1,5 +1,5 @@
 {
-  "name": "tasoft/phpstorm-template",
+  "name": "skyline-admin/component-css",
   "license": "MIT",
   "description": "The default css for any Skyline CMS Application user interface (Ready, Set and Go)",
   "minimum-stability": "dev",
