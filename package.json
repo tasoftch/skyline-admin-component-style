@@ -1,0 +1,42 @@
+{
+  "name": "skyline-admin-ready-css",
+  "version": "1.0.28",
+  "description": "Skyline CMS, the most flexible content management system",
+  "scripts": {
+    "v:patch": "npm version --no-git-tag-version patch",
+    "build:css": "node-sass --output-style compressed --source-map true --source-map-contents true --precision 6 src/main.scss Components/css/skyline.min.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tasoftch/skyline-admin-ready.git"
+  },
+  "keywords": [
+    "cms",
+    "webpage",
+    "website",
+    "ui",
+    "skyline"
+  ],
+  "author": "Thomas Abplanalp",
+  "license": "BSD-3-Clause",
+  "babel": {
+    "presets": [
+      "env"
+    ],
+    "plugins": [
+      "transform-object-rest-spread"
+    ]
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "eslint": "^4.19.1",
+    "node-sass": "^4.8.3"
+  },
+  "dependencies": {
+    "underscore": "^1.8.3",
+    "underscore.string": "^3.3.4"
+  }
+}
