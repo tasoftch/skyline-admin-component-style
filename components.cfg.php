@@ -27,9 +27,9 @@ use Skyline\Component\Config\CSSComponent;
 $apiFileCSS = __DIR__ . '/Components/css/skyline.min.css';
 
 return [
-    'Ready' => [
+    'SkylineCoreStyle' => [
         "css" => new CSSComponent(
-            "/Public/Admin/Ready/Components/CSS/skyline.min.css",
+            "/Public/Skyline/Stylesheets/skyline.core.min.css",
             'all',
             'sha384-'.hash_file("sha384", $apiFileCSS),
             NULL,

@@ -9,9 +9,6 @@
       "email": "info@tasoft.ch"
     }
   ],
-  "autoload": {
-
-  },
   "require" : {
     "php": "^7.2"
   },
