@@ -4,7 +4,7 @@
   "description": "Skyline CMS, the most flexible content management system",
   "scripts": {
     "v:patch": "npm version --no-git-tag-version patch",
-    "build:css": "node-sass --output-style compressed --source-map true --source-map-contents true --precision 6 src/main.scss Components/css/skyline.min.css"
+    "build:css": "node-sass --output-style compressed --precision 6 src/main.scss Components/css/skyline.min.css"
   },
   "repository": {
     "type": "git",
