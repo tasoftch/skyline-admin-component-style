@@ -1,1 +1,9 @@
+@import "avatar";
+
+.avatar {
+  @include avatar(false);
+}
+.avatar-cyrcle {
+  @include avatar(true);
+}
 
