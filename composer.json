@@ -2,7 +2,6 @@
   "name": "skyline-admin/component-css",
   "license": "MIT",
   "description": "The default css for any Skyline CMS Application user interface (Ready, Set and Go)",
-  "minimum-stability": "dev",
   "authors": [
     {
       "name": "Thomas Abplanalp",
@@ -13,8 +12,8 @@
     "php": "^7.2"
   },
   "require-dev": {
-    "skyline/compiler": "dev-master",
-    "skyline/direct-components": "dev-master",
+    "skyline/compiler": "^0.8",
+    "skyline/direct-components": "^0.8",
     "twbs/bootstrap": "^4"
   }
 }
