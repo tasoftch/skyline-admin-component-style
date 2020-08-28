@@ -31,7 +31,7 @@ return [
         "css" => new CSSComponent(
             "/Public/Skyline/Stylesheets/skyline.core.min.css",
             'all',
-            'sha384-'.hash_file("sha384", $apiFileCSS),
+            'sha384-'.base64_encode(hash_file("sha384", $apiFileCSS, true)),
             NULL,
             CompilerContext::getCurrentCompiler()->getRelativeProjectPath($apiFileCSS)
         ),
