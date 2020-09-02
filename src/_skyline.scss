@@ -1,4 +1,5 @@
 @import "avatar";
+@import "checkbox";
 
 .avatar {
   @include avatar(false);

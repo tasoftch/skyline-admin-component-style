@@ -1,6 +1,6 @@
 {
   "name": "skyline-admin/component-css",
-  "license": "MIT",
+  "license": "BSD-3-Clause",
   "description": "The default css for any Skyline CMS Application user interface (Ready, Set and Go)",
   "authors": [
     {
@@ -8,12 +8,18 @@
       "email": "info@tasoft.ch"
     }
   ],
+  "autoload": {
+    "psr-4": {
+      "Skyline\\Admin\\Style\\": "PHP"
+    }
+  },
   "require" : {
     "php": "^7.2"
   },
   "require-dev": {
     "skyline/compiler": "^0.8",
     "skyline/direct-components": "^0.8",
-    "twbs/bootstrap": "^4"
+    "twbs/bootstrap": "^4",
+    "skyline/component-bootstrap": "^4"
   }
 }
